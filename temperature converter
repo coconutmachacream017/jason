@@ -1,0 +1,5 @@
+#Temperature in celcuis degreee
+celcuis =47 
+#converting celcuis to fahrenheit
+fahrenheit = (celcuis * 9/5) + 32
+print(f'temperature in fahrenheit is {fahrenheit}')
