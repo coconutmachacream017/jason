@@ -1,0 +1,9 @@
+def hours_to_seconds(Hours):
+    return Hours * 3600 #1 hour is equal to 3600 seconds
+#example usage
+Hours = 2
+seconds = hours_to_seconds(Hours)
+print(f"{Hours} hours is equal to {seconds} seconds")
+Hours = 24
+seconds = hours_to_seconds(Hours)
+print(f"{Hours} hours is equal to {seconds} seconds")
